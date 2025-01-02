@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Website</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        color: #333;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1f2937;
+        color: white;
+        padding: 1rem 2rem;
+      }
+      header a {
+        color: white;
+        text-decoration: none;
+        margin: 0 1rem;
+      }
+      header a:hover {
+        text-decoration: underline;
+      }
+      .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1f2937;
+        color: white;
+        padding: 3rem 2rem;
+      }
+      .hero-text {
+        max-width: 50%;
+      }
+      .hero img {
+        width: 40%;
+        background: #6b7280;
+        display: block;
+        aspect-ratio: 16/9;
+      }
+      .hero button {
+        background-color: #3b82f6;
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        margin-top: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+      }
+      .hero button:hover {
+        background-color: #2563eb;
+      }
+      .info-section {
+        padding: 2rem;
+        text-align: center;
+      }
+      .info-section h2 {
+        margin-bottom: 2rem;
+      }
+      .info-cards {
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+      }
+      .info-card {
+        flex: 1;
+        padding: 1rem;
+        border: 2px solid #3b82f6;
+        text-align: center;
+      }
+      .quote-section {
+        background-color: #f3f4f6;
+        padding: 2rem;
+        text-align: center;
+        font-style: italic;
+      }
+      .cta-section {
+        background-color: #3b82f6;
+        color: white;
+        text-align: center;
+        padding: 2rem;
+      }
+      .cta-section button {
+        background-color: #2563eb;
+        border: none;
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        color: white;
+        cursor: pointer;
+      }
+      .cta-section button:hover {
+        background-color: #1d4ed8;
+      }
+      footer {
+        background-color: #1f2937;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>Header Logo</div>
+      <nav>
+        <a href="#">header link one</a>
+        <a href="#">header link two</a>
+        <a href="#">header link three</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>This website is awesome</h1>
+        <p>
+          This website has some subtext that goes here under the main title.
+          It's a smaller font and the color is lower contrast.
+        </p>
+        <button>Sign up</button>
+      </div>
+      <img src="#" alt="Placeholder image" />
+    </section>
+    <section class="info-section">
+      <h2>Some random information.</h2>
+      <div class="info-cards">
+        <div class="info-card">
+          this is some subtext under an illustration or image
+        </div>
+        <div class="info-card">
+          this is some subtext under an illustration or image
+        </div>
+        <div class="info-card">
+          this is some subtext under an illustration or image
+        </div>
+      </div>
+    </section>
+    <section class="quote-section">
+      <p>
+        "This is an inspiring quote, or a testimonial from a customer. Maybe
+        it's just filling up space, or maybe people will actually read it. Who
+        knows? All I know is that it looks nice."
+      </p>
+      <p>-Thor, God of Thunder</p>
+    </section>
+    <section class="cta-section">
+      <h2>Call to action! It's time!</h2>
+      <p>Sign up for our product by clicking that button right over there!</p>
+      <button>Sign up</button>
+    </section>
+    <footer>
+      <p>Copyright © The Odin Project 2021</p>
+    </footer>
+  </body>
+</html>
