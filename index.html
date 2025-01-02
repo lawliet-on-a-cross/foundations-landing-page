@@ -5,103 +5,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awesome Website</title>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
       body {
         margin: 0;
-        font-family: Arial, sans-serif;
+        font-family: "Roboto", sans-serif;
         line-height: 1.5;
         color: #333;
       }
+
       header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         background-color: #1f2937;
-        color: white;
+        color: #f9faf8;
         padding: 1rem 2rem;
+        font-size: 18px;
       }
+
       header a {
-        color: white;
+        color: #e5e7eb;
         text-decoration: none;
         margin: 0 1rem;
       }
+
       header a:hover {
         text-decoration: underline;
       }
+
       .hero {
         display: flex;
         justify-content: space-between;
         align-items: center;
         background-color: #1f2937;
-        color: white;
+        color: #f9faf8;
         padding: 3rem 2rem;
       }
+
       .hero-text {
         max-width: 50%;
       }
+
+      .hero h1 {
+        font-size: 48px;
+        font-weight: 900;
+        color: #f9faf8;
+      }
+
+      .hero p {
+        font-size: 18px;
+        color: #e5e7eb;
+      }
+
       .hero img {
         width: 40%;
         background: #6b7280;
         display: block;
         aspect-ratio: 16/9;
       }
+
       .hero button {
-        background-color: #3b82f6;
+        background-color: #3882f6;
         color: white;
         border: none;
         padding: 0.75rem 1.5rem;
         margin-top: 1rem;
         cursor: pointer;
-        font-size: 1rem;
+        font-size: 18px;
       }
+
       .hero button:hover {
         background-color: #2563eb;
       }
+
       .info-section {
         padding: 2rem;
         text-align: center;
       }
+
       .info-section h2 {
+        font-size: 36px;
+        font-weight: 900;
+        color: #1f2937;
         margin-bottom: 2rem;
       }
+
       .info-cards {
         display: flex;
         justify-content: space-around;
         gap: 1rem;
       }
+
       .info-card {
         flex: 1;
         padding: 1rem;
-        border: 2px solid #3b82f6;
+        border: 2px solid #3882f6;
         text-align: center;
       }
+
       .quote-section {
-        background-color: #f3f4f6;
+        background-color: #e5e7eb;
         padding: 2rem;
         text-align: center;
         font-style: italic;
+        font-size: 36px;
+        font-weight: 300;
+        color: #1f2937;
       }
+
       .cta-section {
-        background-color: #3b82f6;
+        background-color: #3882f6;
         color: white;
         text-align: center;
         padding: 2rem;
       }
+
       .cta-section button {
         background-color: #2563eb;
         border: none;
         padding: 1rem 2rem;
-        font-size: 1rem;
+        font-size: 18px;
         color: white;
         cursor: pointer;
       }
+
       .cta-section button:hover {
         background-color: #1d4ed8;
       }
+
       footer {
         background-color: #1f2937;
-        color: white;
+        color: #e5e7eb;
         text-align: center;
         padding: 1rem;
+        font-size: 18px;
       }
     </style>
   </head>
@@ -123,7 +161,7 @@
         </p>
         <button>Sign up</button>
       </div>
-      <img src="#" alt="Placeholder image" />
+      <img src="#" alt="Placeholder for an image" />
     </section>
     <section class="info-section">
       <h2>Some random information.</h2>
@@ -140,20 +178,16 @@
       </div>
     </section>
     <section class="quote-section">
-      <p>
-        "This is an inspiring quote, or a testimonial from a customer. Maybe
-        it's just filling up space, or maybe people will actually read it. Who
-        knows? All I know is that it looks nice."
-      </p>
-      <p>-Thor, God of Thunder</p>
+      "This is an inspiring quote, or a testimonial from a customer. Maybe it's
+      just filling up space, or maybe people will actually read it. Who knows?
+      All I know is that it looks nice."
+      <br />- Thor, God of Thunder
     </section>
     <section class="cta-section">
-      <h2>Call to action! It's time!</h2>
+      <p>Call to action! It's time!</p>
       <p>Sign up for our product by clicking that button right over there!</p>
       <button>Sign up</button>
     </section>
-    <footer>
-      <p>Copyright © The Odin Project 2021</p>
-    </footer>
+    <footer>Copyright © The Odin Project 2021</footer>
   </body>
 </html>
